@@ -2,7 +2,7 @@
 
 using namespace std;
 
-#define pi 3.14; //Define uma variável para um valor constante.
+#define pi 3.14; //#define: Define uma variável ou uma tarefa para um valor constante.
 #define curtir cout << "Curta esse video!\n";
 
 //void é usado quando não se retorna nenhum valor de uma função
