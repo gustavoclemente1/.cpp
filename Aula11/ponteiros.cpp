@@ -11,5 +11,7 @@ int main(){
     cout << "Endereco armazenado no ponteiro: " << pont1 << endl; // irá imprimir o endereço do primeiro byte que compoe o valor da variável.
     cout << "Valor que esta armazenado no endereco: " << *pont1 << endl; //exibe o valor que esta armazenado nesse endereço.
     cout << "Valor da variavel: " << pont1;
+
+    int var2; 
     return 0;
 }
