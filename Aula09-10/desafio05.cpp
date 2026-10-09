@@ -13,7 +13,7 @@ cin >> id;
 cout << "Qual a sua renda?\n";
 cin >> renda;
 
-if(id > 21 && renda < 1200){
+if(id >= 21 && renda < 1200){
     cout << "Aprovado";
 } else{
     cout << "Reprovado";
