@@ -25,7 +25,7 @@ int num;
     cout << "Escolha um número" << endl;
     cin >> num;
     if(num <= 0){
-        cout << "Número inválido";
+        cout << "Número inválido\n";
     }else{
         break;
     }
