@@ -4,20 +4,37 @@
 
 using namespace std;
 
-int main(){
+int fatorial(int n){
 
-int num,fat=1, cont=1;
+    int cont=1, fat=1;
 
-cout << "Escolha um número" << endl;
-cin >> num;
-
-while(cont <= num){
-    fat=fat*cont;
-
+    while(cont <= n){
+    fat*=cont;
     cont++;
+    }
+
+    return fat;
 }
 
-cout << "O fatorial de" << num << "é" << fat;
+
+int main(){
+
+int num;
+
+    while (true){
+    cout << "Escolha um número" << endl;
+    cin >> num;
+    if(num <= 0){
+        cout << "Número inválido";
+    }else{
+        break;
+    }
+}
+
+
+int res=fatorial(num);
+
+cout << "O fatorial de " << num << "é " << res;
 
     return 0;
 }
