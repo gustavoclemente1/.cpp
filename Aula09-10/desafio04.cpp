@@ -1,3 +1,5 @@
+//Algoritmo que calcula a potenciação com 2 valores escolhidos pelo usuário.
+
 #include <iostream>
 #include <cmath>
 
