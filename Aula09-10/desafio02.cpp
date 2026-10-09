@@ -7,7 +7,7 @@ using namespace std;
 
 int main(){
 
-float n1, n2, n3, cont=1, media_do_aluno;
+float n1, n2, n3, cont=1, media_do_aluno, mediaT;
 
     while(cont <=3){
         cout << "Informe o valor da" << cont << "ª nota";
@@ -25,7 +25,17 @@ float n1, n2, n3, cont=1, media_do_aluno;
 
 
     media_do_aluno=(n1+n2+n3)/3.0;
-    cout << media_do_aluno;
+
+    cout << "Informe a média da turma" << endl;
+    cin >> mediaT;
+
+    if (media_do_aluno < mediaT){
+        cout << "Aluno abaixo da média";
+    } else if (media_do_aluno > mediaT){
+        cout << "Aluno acima da média";
+    } else{
+        cout << "Aluno na média";
+    }
 
     return 0;
 }
