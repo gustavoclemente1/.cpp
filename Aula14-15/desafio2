@@ -1,0 +1,32 @@
+//Algoritmo que recebe os gastos de 5 familia e diz se eles estão abaixo, acima ou na média do esperado.
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+int c;
+float f[5], media, soma=0;
+
+    for(c=0; c < 5; c++){
+        cout << "Informe os gastos de alimentação da" << c+1 << "ª família\n";
+        cin >> f[c];
+        soma += f[c];
+    }
+
+    media = soma/5
+
+    for(c=0; c < 5; c++){
+        if(f[c] < media){
+            cout << "Os gastos da família" << c+1 << " estão abaixo da média.\n";
+        } else if(f[c] == media){
+            cout << "Os gastos da família" << c+1 << " estão na média\n";
+        }else{
+            cout << "Os gastos da família" << c+1 << " estão acima da média\n";
+        }
+    }
+
+    
+
+    return 0;
+}
