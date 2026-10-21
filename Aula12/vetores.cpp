@@ -43,6 +43,7 @@ int main(){
         cout << vetor[i] << " ";
     }
 
-    delete [] vetor;
+    delete [] vetor; //libera o espaço de memória do vetor.
+    
     return 0;
 }
