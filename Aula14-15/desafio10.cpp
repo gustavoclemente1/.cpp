@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int troca(int* &valor1, int* &valor2){
+void troca(int* &valor1, int* &valor2){
     int aux;
 
     aux = *valor1;
