@@ -4,18 +4,18 @@
 using namespace std;
 
 int main(){
-    int media;
     int* id1 = new int;
     int* id2 = new int;
+    float* media = new float;
     
     cout << "Informe a idade da primeira pessoa " << endl;
     cin >> *id1;
     cout << "Informe a idade da segunda pessoa\n";
     cin >> *id2;
 
-    media = (*id1+*id2)/2;
+    *media = (*id1+*id2)/2;
 
-    cout << "A média das idades é: " << media;  
+    cout << "A média das idades é: " << *media;  
 
     return 0;
 }

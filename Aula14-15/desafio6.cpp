@@ -16,6 +16,8 @@ float f[5], media, soma=0;
 
     media = soma/5;
 
+    cout << "Média de gastos: " << media << endl;
+
     for(c=0; c < 5; c++){
         if(f[c] < media){
             cout << "Os gastos da família" << c+1 << " estão abaixo da média.\n";
