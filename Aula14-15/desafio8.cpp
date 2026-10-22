@@ -1,3 +1,4 @@
+//O código pede ao usuário para escolher o tamanho do vetor e seus valores. Ao final o vetor é exibido e é solicitado ao usuário se ele gostaria de escolher um novo vetor.
 #include <iostream>
 
 using namespace std;
