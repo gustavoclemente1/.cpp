@@ -19,7 +19,7 @@ class propaganda{
 };
 
 int main(){
-    propaganda canal; //Chamada da classe "propaganda" e seu objeto criado "canal".
+    propaganda canal; //Criação do objeto canal da classe propaganda.
     canal.inscrever(); //Chamada da função "inscrever" contida no objeto canal.
     canal.curta();  //Chamada da função "inscrever" contida no objeto canal.
     
